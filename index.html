@@ -12,9 +12,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
     <title>faq</title>
   </head>
-  <body class="bg-[#0a0a0f] h-screen font-sans text-[#f0f0f5] items-center">
+  <body class="bg-[#0a0a0f] min-h-screen font-sans text-[#f0f0f5] items-center flex flex-col">
     <header class="flex flex-col text-center items-center mt-[60px] mb-[80px]">
       <button
         class="w-[80px] h-[35px] text-[13px] font-medium text-[#818cf8] mb-[20px] rounded-[50px] border-[1px] border-[rgba(99, 102, 241, 0.3)] px-[14px] py-[5px] bg-[#6366f126]"
@@ -34,16 +38,20 @@
     <main class="flex flex-col items-center">
       <ul class="flex flex-col gap-[10px] cursor-pointer w-[658px]">
         <li
-          id="list1" class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]  transition-all"
+          id="list1"
+          class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px] transition-all duration-300"
         >
           <div class="flex justify-between items-center">
             <h2 class="text-[16px] font-medium">
               What payment methods do you accept?
             </h2>
-            <i id="icon1" class="fa-solid fa-plus icon text-[#818cf8] transition-all"></i>
+            <i
+              id="icon1"
+              class="fa-solid fa-plus icon text-[#818cf8] transition-all"
+            ></i>
           </div>
-          
-          <p id="p1"  >
+
+          <p id="p1">
             We accept all major credit cards (Visa, MasterCard, American
             Express), PayPal, and <br />
             bank transfers. For enterprise customers, we also offer invoicing
@@ -51,105 +59,122 @@
           </p>
         </li>
         <li
-          class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]"
+         id="list2" class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]"
         >
           <div class="flex justify-between items-center">
             <h2 class="text-[16px] font-medium">
-             Can I cancel my subscription anytime?
+              Can I cancel my subscription anytime?
             </h2>
-            <i id="icon" class="fa-solid fa-plus icon text-[#818cf8]"></i>
+            <i id="icon2" class="fa-solid fa-plus icon text-[#818cf8]"></i>
           </div>
-          <p>
-           
-                Yes, absolutely! You can cancel your subscription at any time from your account <br>
-                settings. If you cancel, you'll still have access to your plan until the end of your <br>
-                billing period. No questions asked.
-              
+          <p id="p2">
+            Yes, absolutely! You can cancel your subscription at any time from
+            your account <br />
+            settings. If you cancel, you'll still have access to your plan until
+            the end of your <br />
+            billing period. No questions asked.
           </p>
         </li>
         <li
-          class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]"
+        id="list3"  class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]"
         >
           <div class="flex justify-between items-center">
-            <h2 class="text-[16px] font-medium">
-             Do you offer a free trial?
-            </h2>
-            <i id="icon" class="fa-solid fa-plus icon text-[#818cf8]"></i>
+            <h2 class="text-[16px] font-medium">Do you offer a free trial?</h2>
+            <i id="icon3" class="fa-solid fa-plus icon text-[#818cf8]"></i>
           </div>
-          <p>
-          
-                Yes! We offer a 14-day free trial with full access to all features. No credit card
-                required to start. You can upgrade to a paid plan anytime during or after your
-                trial.
-              
+          <p id="p3">
+            Yes! We offer a 14-day free trial with full access to all features.
+            No credit card required to start. You can upgrade to a paid plan
+            anytime during or after your trial.
           </p>
         </li>
         <li
-          class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]"
+          id="list4" class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]"
         >
           <div class="flex justify-between items-center">
             <h2 class="text-[16px] font-medium">
-              What payment methods do you accept?
+              How do I contact customer support?
             </h2>
-            <i id="icon" class="fa-solid fa-plus icon text-[#818cf8]"></i>
+            <i id="icon4" class="fa-solid fa-plus icon text-[#818cf8]"></i>
           </div>
-          <p>
-            We accept all major credit cards (Visa, MasterCard, American
-            Express), PayPal, and <br />
-            bank transfers. For enterprise customers, we also offer invoicing
-            with NET 30 terms.
+          <div id="p4">
+            <p class="mb-5">
+              Our support team is available 24/7. You can reach us via:
+            </p>
+            <ul class="flex flex-col gap-1 text-[#8888a0] list-disc pl-5">
+              <li>Live chat on our website</li>
+              <li>Email at support@example.com</li>
+              <li>Phone: 1-800-123-4567</li>
+            </ul>
+            <p  class="mt-5">
+              We typically respond within 2 hours during business hours.
+            </p>
+          </div>
+        </li>
+        <li
+          id="list5" class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]"
+        >
+          <div class="flex justify-between items-center">
+            <h2 class="text-[16px] font-medium">Is my data secure?</h2>
+            <i id="icon5" class="fa-solid fa-plus icon text-[#818cf8]"></i>
+          </div>
+          <p id="p5">
+            Security is our top priority. We use industry-standard 256-bit SSL
+            encryption for all <br />
+            data transfers. Your data is stored in SOC 2 compliant data centers
+            with 99.99% <br />
+            uptime. We never sell or share your data with third parties.
           </p>
         </li>
         <li
-          class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]"
+          id="list6" class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]"
         >
           <div class="flex justify-between items-center">
             <h2 class="text-[16px] font-medium">
-              What payment methods do you accept?
+              Can I upgrade or downgrade my plan?
             </h2>
-            <i id="icon" class="fa-solid fa-plus icon text-[#818cf8]"></i>
+            <i id="icon6" class="fa-solid fa-plus icon text-[#818cf8]"></i>
           </div>
-          <p>
-            We accept all major credit cards (Visa, MasterCard, American
-            Express), PayPal, and <br />
-            bank transfers. For enterprise customers, we also offer invoicing
-            with NET 30 terms.
+          <p id="p6">
+            Yes, you can change your plan at any time. When upgrading, you'll be
+            charged the <br />
+            prorated difference. When downgrading, the new rate will apply at
+            your next billing <br />
+            cycle.
           </p>
         </li>
         <li
-          class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]"
+          id="list7" class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]  transition-all duration-300"
         >
           <div class="flex justify-between items-center">
-            <h2 class="text-[16px] font-medium">
-              What payment methods do you accept?
-            </h2>
-            <i id="icon" class="fa-solid fa-plus icon text-[#818cf8]"></i>
+            <h2 class="text-[16px] font-medium">Do you offer refunds?</h2>
+            <i id="icon7" class="fa-solid fa-plus icon text-[#818cf8]"></i>
           </div>
-          <p>
-            We accept all major credit cards (Visa, MasterCard, American
-            Express), PayPal, and <br />
-            bank transfers. For enterprise customers, we also offer invoicing
-            with NET 30 terms.
-          </p>
-        </li>
-        <li
-          class="flex flex-col gap-[20px] rounded-[12px] border-[1px] border-[#ffffff0f] hover:border-[#6366f14d] bg-[#16161f] px-[24px] py-[20px]"
-        >
-          <div class="flex justify-between items-center">
-            <h2 class="text-[16px] font-medium">
-              What payment methods do you accept?
-            </h2>
-            <i id="icon" class="fa-solid fa-plus icon text-[#818cf8]"></i>
-          </div>
-          <p>
-            We accept all major credit cards (Visa, MasterCard, American
-            Express), PayPal, and <br />
-            bank transfers. For enterprise customers, we also offer invoicing
-            with NET 30 terms.
+          <p id="p7">
+            We offer a 30-day money-back guarantee for all new customers. If
+            you're not <br />
+            satisfied with our service, contact us within 30 days of your
+            purchase for a full <br />
+            refund.
           </p>
         </li>
       </ul>
     </main>
+    <footer class=" flex items-center justify-center text-center">
+      <div
+        class="w-[658px] h-[300px] bg-[#6366f114] mt-[50px] mb-[80px] border-[1px] border-[#6366f133] rounded-[16px] text-center px-[20px] py-[30px] flex flex-col items-center justify-center"
+      >
+        <div class="text-[40px] mb-[16px]">💬</div>
+        <h3 class="text-[20px] font-semibold mb-[10px]">
+          Still have questions?
+        </h3>
+        <p class="text-[15.2px] mb-[24px]">
+          Can't find the answer you're looking for? Our
+          friendly team is here to help.
+        </p>
+        <button class="w-[143px] h-[48px] px-[28px] py-[12px] bg-[#6366f1] text-[15.2px] font-medium rounded-[50px] cursor-pointer transition-all duration-200 hover:bg-[#818cf8]">Get in touch</button>
+      </div>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

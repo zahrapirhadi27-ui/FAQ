@@ -10,3 +10,53 @@ p {
   height: 120px;
   border: 1px solid #6366f14d;
 }
+
+#list2 {
+  height: 60px;
+}
+#list2.active {
+  height: 160px;
+  border: 1px solid #6366f14d;
+}
+
+#list3 {
+  height: 60px;
+}
+#list3.active {
+  height: 160px;
+  border: 1px solid #6366f14d;
+}
+
+
+#list4 {
+  height: 60px;
+}
+#list4.active {
+  height: 260px;
+  border: 1px solid #6366f14d;
+}
+
+
+#list5 {
+  height: 60px;
+}
+#list5.active {
+  height: 160px;
+  border: 1px solid #6366f14d;
+}
+
+#list6 {
+  height: 60px;
+}
+#list6.active {
+  height: 160px;
+  border: 1px solid #6366f14d;
+}
+
+#list7 {
+  height: 60px;
+}
+#list7.active {
+  height: 160px;
+  border: 1px solid #6366f14d;
+}
