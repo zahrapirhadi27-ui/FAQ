@@ -23,10 +23,9 @@ p {
   height: 60px;
 }
 #list3.active {
-  height: 160px;
+  height: 140px;
   border: 1px solid #6366f14d;
 }
-
 
 #list4 {
   height: 60px;
@@ -35,7 +34,6 @@ p {
   height: 260px;
   border: 1px solid #6366f14d;
 }
-
 
 #list5 {
   height: 60px;

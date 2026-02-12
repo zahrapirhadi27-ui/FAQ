@@ -1,7 +1,7 @@
 const lis1tEl = document.getElementById("list1");
 const p1El = document.getElementById("p1");
 const icon1El = document.getElementById("icon1");
-const list2El =document.getElementById("list2");
+const list2El = document.getElementById("list2");
 const p2El = document.getElementById("p2");
 const icon2El = document.getElementById("icon2");
 const list3El = document.getElementById("list3");
@@ -22,11 +22,11 @@ const icon7El = document.getElementById("icon7");
 
 lis1tEl.addEventListener("click", () => {
   lis1tEl.classList.toggle("active");
-  icon1El.classList.toggle("rotate-45")
+  icon1El.classList.toggle("rotate-45");
 });
 
 list2El.addEventListener("click", () => {
- list2El.classList.toggle("active");
+  list2El.classList.toggle("active");
   icon2El.classList.toggle("rotate-45");
 });
 
@@ -54,4 +54,3 @@ list7El.addEventListener("click", () => {
   list7El.classList.toggle("active");
   icon7El.classList.toggle("rotate-45");
 });
-
