@@ -1,0 +1,12 @@
+@import "tailwindcss";
+p {
+  color: #8888a0;
+}
+
+#list1 {
+  height: 60px;
+}
+#list1.active {
+  height: 120px;
+  border: 1px solid #6366f14d;
+}
